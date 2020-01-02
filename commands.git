@@ -1,0 +1,29 @@
+//Initialize a new Git project
+$ git init
+
+//Check the status of the Git Project
+$ git status
+
+//Add each file to the Git staging area
+$ git add .
+
+//Chceck the status of the Git project again
+$ git status
+
+//Make a commit
+$ git commit -m "hey cool trick"
+
+//View your Git commit log
+$ git log
+
+//Add file to the staging area
+$ git add disclaimer.txt
+
+//Make a commit
+$ git commit -m "add warning"
+
+//Revise the files to your liking and then add the 
+//changes to the staging area and make another commit
+$ git add .
+$ git status
+$ git commit -m "revised files"
